@@ -8,7 +8,7 @@ try:
 except ImportError:
     from urlparse import urlparse
 from django.contrib.staticfiles import finders
-from huey.contrib.djhuey import db_task,
+from huey.contrib.djhuey import db_task
 
 register = template.Library()
 
