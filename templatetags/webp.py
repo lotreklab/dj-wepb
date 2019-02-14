@@ -1,7 +1,7 @@
 from django import template
 from django.conf import settings
-from webp_converterLTK.models import WebPImage
-from webp_converterLTK.utils import make_image_key
+from djwepb.djwebp.models import WebPImage
+from djwepb.djwebp.utils import make_image_key 
 from django.core.cache import cache
 try:
     from urllib.parse import urlparse
